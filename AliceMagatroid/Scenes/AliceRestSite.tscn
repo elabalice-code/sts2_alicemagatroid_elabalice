@@ -1,0 +1,10 @@
+[gd_scene load_steps=2 format=3]
+
+[ext_resource type="Texture2D" path="res://AliceMagatroid/Images/Rest/campfire.png" id="1_campfire"]
+
+[node name="AliceRestSite" type="Node2D"]
+
+[node name="Campfire" type="Sprite2D" parent="."]
+texture = ExtResource("1_campfire")
+position = Vector2(0, -170)
+scale = Vector2(0.18, 0.18)

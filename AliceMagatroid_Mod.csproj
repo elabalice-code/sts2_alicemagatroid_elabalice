@@ -1,0 +1,38 @@
+<Project Sdk="Godot.NET.Sdk/4.5.1">
+  <PropertyGroup>
+    <TargetFramework>net9.0</TargetFramework>
+    <TargetFramework Condition=" '$(GodotTargetPlatform)' == 'android' ">net9.0</TargetFramework>
+    <EnableDynamicLoading>true</EnableDynamicLoading>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="0Harmony">
+      <HintPath>$(GameRoot)\data_sts2_windows_x86_64\0Harmony.dll</HintPath>
+    </Reference>
+    <Reference Include="BaseLib">
+      <HintPath>$(BaseLibPath)</HintPath>
+    </Reference>
+    <Reference Include="GodotSharp">
+      <HintPath>$(GameRoot)\data_sts2_windows_x86_64\GodotSharp.dll</HintPath>
+    </Reference>
+    <Reference Include="sts2">
+      <HintPath>$(GameRoot)\data_sts2_windows_x86_64\sts2.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="AliceMagatroid\Images\Cards\" />
+    <Folder Include="AliceMagatroid\Images\Charui\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Remove="_deploy\**\*.cs" />
+    <EmbeddedResource Remove="_deploy\**\*" />
+    <None Remove="_deploy\**\*" />
+    <Compile Remove="_export\**\*.cs" />
+    <EmbeddedResource Remove="_export\**\*" />
+    <None Remove="_export\**\*" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Alchyr.Sts2.ModAnalyzers" Version="0.1.6" />
+	<AdditionalFiles Include="localization/**/*.json" />
+  </ItemGroup>
+</Project>

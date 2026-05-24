@@ -1,0 +1,16 @@
+{
+  "ALICEMAGATROID_MOD-ALICE_MAGATROID.title": "爱丽丝·玛格特罗伊德",
+  "ALICEMAGATROID_MOD-ALICE_MAGATROID.titleObject": "爱丽丝",
+  "ALICEMAGATROID_MOD-ALICE_MAGATROID.description": "居住在魔法之森的人偶使。",
+  "ALICEMAGATROID_MOD-ALICE_MAGATROID.pronounObject": "她",
+  "ALICEMAGATROID_MOD-ALICE_MAGATROID.possessiveAdjective": "她的",
+  "ALICEMAGATROID_MOD-ALICE_MAGATROID.pronounPossessive": "她的",
+  "ALICEMAGATROID_MOD-ALICE_MAGATROID.pronounSubject": "她",
+  "ALICEMAGATROID_MOD-ALICE_MAGATROID.cardsModifierTitle": "爱丽丝卡牌",
+  "ALICEMAGATROID_MOD-ALICE_MAGATROID.cardsModifierDescription": "爱丽丝的卡牌将出现在商店与奖励中",
+  "ALICEMAGATROID_MOD-ALICE_MAGATROID.aromaPrinciple": "[sine][pink]七色的人偶使[/pink][/sine]",
+  "ALICEMAGATROID_MOD-ALICE_MAGATROID.eventDeathPrevention": "人偶们……还没有停下。",
+  "ALICEMAGATROID_MOD-ALICE_MAGATROID.banter.alive.endTurnPing": "接下来轮到哪一个人偶出场呢？",
+  "ALICEMAGATROID_MOD-ALICE_MAGATROID.banter.dead.endTurnPing": "……线，断掉了。",
+  "ALICEMAGATROID_MOD-ALICE_MAGATROID.goldMonologue": "[sine]这些材料，也许能做出新的人偶。[/sine]"
+}

@@ -1,0 +1,39 @@
+# Godot IDE cache
+.godot/
+
+# Visual Studio
+.vs/
+
+# Compilation and publish outputs
+_deploy/
+_export/
+publish_test/
+bin/
+obj/
+*.dll
+*.pdb
+*.deps.json
+*.runtimeconfig.json
+
+# Godot export artifacts
+*.pck
+
+# Decompiler tools and inspect DLLs
+.tools/
+*_inspect.dll
+CsLineCount.exe
+RunPowershellAsAdmin.exe
+
+# NuGet cache
+*.nupkg
+
+# Godot auto-generated files
+*.import
+*.uid
+
+# Git / IDE
+*.user
+*.last
+
+# Local machine settings (see user_settings.example.json)
+user_settings.json

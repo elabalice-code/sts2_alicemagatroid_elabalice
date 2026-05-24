@@ -1,0 +1,11 @@
+{
+  "ALICEMAGATROID_MOD-BOTTLED_DOLL.title": "瓶中人偶",
+  "ALICEMAGATROID_MOD-BOTTLED_DOLL.description": "在空的人偶槽位随机生成1个人偶。",
+  "ALICEMAGATROID_MOD-BOTTLED_DOLL.flavor": "看起来像是个迷你人偶。",
+  "ALICEMAGATROID_MOD-CONCENTRATION_POTION.title": "浓缩药水",
+  "ALICEMAGATROID_MOD-CONCENTRATION_POTION.description": "使所有已存在的人偶行动一次。",
+  "ALICEMAGATROID_MOD-CONCENTRATION_POTION.flavor": "专注的力量。",
+  "ALICEMAGATROID_MOD-WEAVING_POTION.title": "纺织药水",
+  "ALICEMAGATROID_MOD-WEAVING_POTION.description": "随机生成 #b2 个人偶。",
+  "ALICEMAGATROID_MOD-WEAVING_POTION.flavor": "丝线交织。"
+}
