@@ -37,3 +37,7 @@ RunPowershellAsAdmin.exe
 
 # Local machine settings (see user_settings.example.json)
 user_settings.json
+
+# Godot portable engine — do not exclude contents of _godot/
+!_godot/**/*.dll
+!_godot/**/*.json
